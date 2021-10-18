@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+ /* * {
+     padding: 0;
+     margin: 0;
+ } */
+
+body {
+    background-image: url("background4.jpeg");
+    color: rgb(196, 196, 196);
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+    /* font: normal 16px "Roboto", sans-serif; */
+
+}
+a {
+color: rgb(196, 196, 196);
+  text-decoration: none;  
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue
+}
+
+a:visited {
+    color:grey;
+}
+
+.avatar {
+    width: 200px; border-radius: 20px ;
+    box-shadow: 4px 4px 14 px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+ss}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+/* text-transform: uppercase; */
+    /* letter-spacing: 1px; */
+    word-spacing: 2px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 40px;
+
+}
+
+/* Box model */
+/* .social {
+background: green;
+/* padding: 15px; */
+/* padding: 15px 40px; */
+/* padding: 15px 20px 25px 30px; */
+/* padding-top: 15px;
+padding-right: 20px;
+padding-bottom: 25px;
+padding-left: 20px;
+border: 5px solid red; */
+/* border-bottom-style: dotted;
+border-top-width: 15px;
+border-right-color: blue; */
+/* } */ 
+
+/* .box-model > div {
+    background: black;
+    height: 200px;
+    width: 25%;
+    border: 4px solid red;
+    float: left;
+    box-sizing: border-box;
+} */
+
+.card {
+    padding: 15px 20px;
+    background: red;
+    border-radius: 5px;
+    color: #868686;
+    }
+
+.bg-yellow {
+  background: #fff9dc;  
+  margin: 15px 5px;
+}
+
+.bg-green {
+    background: #e5ffe7;
+    margin: 15px 5px;  
+    
+  }
+
+  .bg-red {
+    background: #ffe5e5; 
+    margin: 15px 5px; 
+  }
+
+  .card h3 {
+      margin-bottom: 12px;
+      color: #000;
+      
+  }
+
+  .list {
+      padding: 0px 0px;
+      list-style: none;
+  }
+
+  .list li {
+      color: #868686;
+      margin-bottom: 5px;
+        }
+
+    .table {
+        width: 100%;
+    }
+
+    .table td {
+        padding-bottom: 10px;
+    }
+
+    .table td:nth-child(1), 
+    .table td:nth-child(2) {
+    color: #868686;
+    }
+
+    .link-list {
+        list-style: none;
+        padding: 0, 0px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+        margin: 5px 0px;
+        }
+
+    .block {
+        padding-inline-start: 0;
+    }
+
+    .contact h3 {
+        text-align: center;
+    }
+
+    .form-group label {
+        display: block;
+        font-size: 14px;
+        color: #86898f;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #ccc;
+        color: #fff;
+        font-size: 14px;
+        padding: 15px 0 10px;
+        outline: none;
+        font-family: inherit
+    }
+
+    .row {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .row >.form-group {
+        width: 50%;
+        margin-right: 20px;
+
+    }
+    .row > .form-group: :first-child {
+        margin-right: 0px
+    }
+
+    .btn {
+        background: rgb(99, 98, 98);
+        padding: 15px;
+        color: #fff;
+        border: none;
+        font-family: inherit;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        opacity: 0.9;
+    }
+
+    /* position */
+
+    /* .position {
+        border: 4px solid rgb(187, 180, 180);
+        margin-top: 40px;
+        padding: 20px;
+        position: relative;
+        height: 300px;
+                }
+/* Material design */
+    /* .box {
+        position: fixed;
+        bottom: 40px;
+        right: 25px;
+        border-radius: 50%;
+        /* top: 150px;
+        left: 50px; */
+        /* background: lightcoral;
+        width: 50px;
+        height: 50px; } */
+    
+/* Navigation */
+        /* .box {
+        position: fixed;
+        top: 0px;
+        left: 0x;
+        border-radius: 50%;
+        /* top: 150px;
+        left: 0px; */
+        /* background: lightcoral;
+        width: 100%;
+        height: 50px; } */
+        
